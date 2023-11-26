@@ -250,6 +250,80 @@ tr:nth-child(1) {
     /* Цвет текста */
 }
 
+.container2 {
+    background-image: radial-gradient(circle farthest-corner at 10% 20%, #c18dfc 17.8%, #79b2fd 100.2%);
+    padding: 8px;
+    margin: 30px auto;
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 70px rgba(1, 225, 255, 0.952);
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="number"], select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+button.button1 {
+    padding: 10px;
+    background-color:#ffffff;
+    color:rgb(142, 142, 252);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.container3 {
+    background-image: radial-gradient(circle farthest-corner at 10% 20%, #c18dfc 17.8%, #79b2fd 100.2%);
+    padding: 8px;
+    margin: 30px auto;
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 70px rgba(1, 225, 255, 0.952);
+}
+select{
+    width: 270px;
+    height: 40px;
+}
+input#onecomp{
+    width: 35px;
+    height: 30px;
+}
+input#twocomp{
+    width: 35px;
+    height: 30px;
+}
+input#acryl{
+    width: 20px;
+    height: 20px;
+}
+input#base{
+    width: 20px;
+    height: 20px;
+}
+input#powder{
+    width: 20px;
+    height: 20px;
+}
+
+.slick-slide img {
+    border: 5px solid #fff;
+    display: flex;
+    width: 90%;
+}
+
+.lazy{
+    border-radius: 15px;
+    box-shadow: 0px 0px 70px rgba(1, 225, 255, 0.952);
+    padding: 8px;
+    margin: 30px auto;
+    width: 350px;
+}
+
 footer {
     display: flex;
     flex-wrap: nowrap;
@@ -517,6 +591,81 @@ footer {
             color: #faf7f7;
             /* Цвет текста */
         }
+
+        .container2 {
+            background-image: radial-gradient(circle farthest-corner at 10% 20%, #c18dfc 17.8%, #79b2fd 100.2%);
+            width: 600px;
+            padding: 50px;
+            margin: 70px 550px ;
+            border-radius: 5px;
+            box-shadow: 0px 0px 70px rgba(1, 225, 255, 0.952);
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        input[type="number"], select {
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            margin-bottom: 10px;
+        }
+        button.button1 {
+            padding: 10px;
+            background-color:#ffffff;
+            color:rgb(142, 142, 252);
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        .container3{
+            background-image: radial-gradient(circle farthest-corner at 10% 20%, #c18dfc 17.8%, #79b2fd 100.2%);
+            width: 600px;
+            padding: 50px;
+            margin: 70px 550px ;
+            border-radius: 15px;
+            box-shadow: 0px 0px 70px rgba(1, 225, 255, 0.952);
+            text-align: left;
+        }
+        select{
+            width: 180px;
+            height: 35px;
+        }
+        input#onecomp{
+            width: 35px;
+            height: 30px;
+        }
+        input#twocomp{
+            width: 35px;
+            height: 30px;
+        }
+        input#acryl{
+            width: 25px;
+            height: 30px;
+        }
+        input#base{
+            width: 25px;
+            height: 30px;
+        }
+        input#powder{
+            width: 25px;
+            height: 30px;
+        }
+
+        .slick-slide img {
+            border: 5px solid #fff;
+            display: flex;
+            width: 90%;
+        }
+        
+        .lazy{
+            border-radius: 15px;
+            box-shadow: 0px 0px 70px rgba(1, 225, 255, 0.952);
+            width: 800px;
+            padding: 50px;
+            margin: 30px 450px ;
+        }
+        
         
         footer {
             display: flex;
